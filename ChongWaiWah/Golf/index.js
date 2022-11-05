@@ -2,9 +2,8 @@
 
 function calc( ){
 
-    
-    let strokes = prompt("Enter you Golf strokes ", "0");
-
+    let par = prompt("Enter the Par Number ", "0");
+    let strokes = prompt("Enter the Number of Strokes", "0");
 
     if (strokes == 1) {
         msg = "Hole in one";
@@ -24,13 +23,9 @@ function calc( ){
         msg = "";
     }
 
-	
-    
- 
-
-
-    document.getElementById("text1").innerText ="Your Strokes :"+strokes;
-    document.getElementById("text2").innerText =msg;
-
+    document.getElementById("text1").innerText =par;
+    document.getElementById("text2").innerText =strokes;
+    document.getElementById("text3").innerText =msg;
+    console.log(msg);
   
 }
