@@ -1,0 +1,7 @@
+function calc( ){
+// under development
+  
+    
+    
+  
+}
