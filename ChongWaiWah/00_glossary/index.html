@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Glossary</title>
+
+    <style>
+        mark {background-color:yellow;}
+      
+    </style>
+</head>
+<body>
+    <h1>Interactive Glossary</h1>
+    <br>
+    <br>
+    Search &nbsp; <input type="text" class="txtsearch" id="txtsearch" name="txtsearch"/> 
+   <!-- <input type="button" name="btnclear" onclick="document.location.reload()" value="Clear"/>
+   --> 
+    <br>     
+    <br>
+    
+    Term&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="mydropdown" class="mydropdown" id="mydropdown" >       
+        </select>
+    <br> 
+    <br>
+
+    &nbsp;&nbsp;&nbsp;&nbsp;    
+    <fieldset class="group"> 
+        <legend>TAG</legend> 
+        <ul  style="list-style: none; columns: 4" class="checkbox"> 
+          <li><input type="checkbox" id="cb1" value="pepperoni" /><label for="cb1">Pepperoni</label></li> 
+          <li><input type="checkbox" id="cb2" value="sausage" /><label for="cb2">Sausage</label></li> 
+          <li><input type="checkbox" id="cb3" value="mushrooms" /><label for="cb3">Mushrooms</label></li> 
+          <li><input type="checkbox" id="cb4" value="onions" /><label for="cb4">Onions</label></li> 
+          <li><input type="checkbox" id="cb5" value="gpeppers" /><label for="cb5">Green Peppers</label></li> 
+          <li><input type="checkbox" id="cb6" value="xcheese" /><label for="cb6">Extra Cheese</label></li> 
+          <li><input type="checkbox" id="cb7" value="pineapple" /><label for="cb7">Pineapple</label></li> 
+        </ul> 
+        </fieldset> 
+      
+    
+    <br>     
+    <br>
+    <div >
+
+    </div>  
+    <p class="pchild" id="pchild"></p>
+  
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
